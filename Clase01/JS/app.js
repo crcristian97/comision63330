@@ -29,7 +29,6 @@ const nombre_alumno = 'matias crevecouere';
 //SIMULACION DE LA CALCULADORA
 const primerNumero = parseInt(prompt('Elegi el primer numero'));
 const segundoNumero = prompt('Elegi el 2do numero');
-debugger
 //el metodo parseInt permite convertir string a number
 //parseFloat ( lean que es este metodo )
 const segundoNumeroParse = parseInt(segundoNumero);
