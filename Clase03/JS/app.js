@@ -4,7 +4,6 @@ let entrada = prompt("Ingresar un nombre");
 debugger;
 //Repetimos hasta que se ingresa "ESC"
 while(entrada != "ESC" ){
-    debugger;
    switch (entrada) {
        case "ANA":
             alert("HOLA ANA");
@@ -74,6 +73,4 @@ if (dia2 === "lunes") {
 } else {
     alert("No es un día válido");
 }
-
-
 
