@@ -54,11 +54,11 @@ function ProductosNatura(titulo = '', descripcion = '', precio = 0, precioDescue
     this.precioDescuento = precioDescuento;
 }
 
-const producto1 = new ProductosNatura("Lapiz labial", "Muy lindo el color rojo", 3000, 2500);
-const producto2 = new ProductosNatura("manteca", "Muy lindo el color rojo", 3000, 2500);
-const producto3 = new ProductosNatura("shampoo", "Muy lindo el color rojo", 3000, 2500);
+const producto10 = new ProductosNatura("Lapiz labial", "Muy lindo el color rojo", 3000, 2500);
+const producto20 = new ProductosNatura("manteca", "Muy lindo el color rojo", 3000, 2500);
+const producto30 = new ProductosNatura("shampoo", "Muy lindo el color rojo", 3000, 2500);
 
-function AlumnosCoderhouse(nombre, apellido, email, rol, top10, comision, tutor){
+function AlumnosCoderhouse(nombre, apellido, email, rol, top10, comision, tutor, beneficios){
     this.nombre = nombre;
     this.apellido = apellido;
     this.email = email;
@@ -66,6 +66,65 @@ function AlumnosCoderhouse(nombre, apellido, email, rol, top10, comision, tutor)
     this.top10 = top10;
     this.comision = comision;
     this.tutor = tutor;
+    this.beneficios = beneficios;
 }
 
-const diegoSierra = new AlumnosCoderhouse("Diego", "Sierra", "diegosierra@gmail.com", "alumno", true, 63330, "Matias"); 
+const diegoSierra = new AlumnosCoderhouse("Diego", "Sierra", "diegosierra@gmail.com", "alumno", true, 63330, "Matias", false); 
+
+
+let cadena = "HOLA CODER";
+//Propiedad de objeto String: Largo de la cadena.
+console.log(cadena.length);
+
+//validacion con FOR IN
+//cambio de valor del argumento
+for (const propiedad in diegoSierra) {
+    debugger
+    console.log(diegoSierra[propiedad]);
+    if(diegoSierra[propiedad] === true){
+        diegoSierra.beneficios = true;
+    }
+}
+
+//ESM6 (SI O SI)
+class PersonasComision{
+    constructor(nombre = "", apellido = "", rol = "") {
+        this.nombre = nombre;
+        this.apellido  = apellido;
+        this.rol  = rol;
+    }
+    hablar(){
+        console.log("HOLA SOY "+ this.nombre);
+    }
+}
+
+const profesorComision = new PersonasComision("Cristian", "Cabrera", "Profesor");
+const alumoComision = new PersonasComision("Sebastian", "Millan", "alumnos");
+const tutorComision = new PersonasComision("Nicolas", "Millan", "alumnos");
+tutorComision.hablar();
+
+
+
+class Producto {
+    constructor(nombre = " ", precio = 0) {
+        this.nombre  = nombre.toUpperCase();
+        this.precio  = parseFloat(precio);
+        this.vendido = false;
+        this.shiping = false;
+    }
+    sumaIva() {
+        this.precio = this.precio * 1.21;
+    }
+    vender() {
+        this.vendido = true;
+    }
+    envioFree(){
+        this.shiping = true
+    }
+}
+const producto1 = new Producto("arroz", "125");
+const producto2 = new Producto("fideo", "50");
+producto1.sumaIva();
+producto2.sumaIva();
+producto1.vender();
+
