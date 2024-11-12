@@ -10,7 +10,6 @@ class Producto {
 }
 //Declaramos un array de productos para almacenar objetos
 const productos = [];
-debugger
 productos.push(new Producto("arroz", "125"));
 productos.push(new Producto("fideo", "70"));
 productos.push(new Producto("pan", "50"));
