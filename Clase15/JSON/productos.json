@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "nombre": "Laptop Gaming",
+        "precio": 1299.99,
+        "categoria": "Electrónica",
+        "stock": 15,
+        "descripcion": "Laptop gaming de alta gama con RTX 3080"
+    },
+    {
+        "id": 2,
+        "nombre": "Smartphone Pro",
+        "precio": 899.99,
+        "categoria": "Móviles",
+        "stock": 25,
+        "descripcion": "Teléfono inteligente con cámara profesional"
+    },
+    {
+        "id": 3,
+        "nombre": "Monitor 4K",
+        "precio": 499.99,
+        "categoria": "Periféricos",
+        "stock": 20,
+        "descripcion": "Monitor de 32 pulgadas con resolución 4K"
+    },
+    {
+        "id": 4,
+        "nombre": "Teclado Mecánico",
+        "precio": 129.99,
+        "categoria": "Periféricos",
+        "stock": 30,
+        "descripcion": "Teclado gaming con switches Cherry MX"
+    },
+    {
+        "id": 5,
+        "nombre": "Mouse Inalámbrico",
+        "precio": 79.99,
+        "categoria": "Periféricos",
+        "stock": 40,
+        "descripcion": "Mouse ergonómico con sensor óptico"
+    },
+    {
+        "id": 6,
+        "nombre": "Auriculares Bluetooth",
+        "precio": 199.99,
+        "categoria": "Audio",
+        "stock": 22,
+        "descripcion": "Auriculares con cancelación de ruido"
+    },
+    {
+        "id": 7,
+        "nombre": "Tablet Pro",
+        "precio": 649.99,
+        "categoria": "Electrónica",
+        "stock": 18,
+        "descripcion": "Tablet de 12 pulgadas con lápiz digital"
+    },
+    {
+        "id": 8,
+        "nombre": "Webcam HD",
+        "precio": 89.99,
+        "categoria": "Periféricos",
+        "stock": 35,
+        "descripcion": "Cámara web 1080p para streaming"
+    },
+    {
+        "id": 9,
+        "nombre": "Disco SSD",
+        "precio": 159.99,
+        "categoria": "Almacenamiento",
+        "stock": 45,
+        "descripcion": "Disco de estado sólido de 1TB"
+    },
+    {
+        "id": 10,
+        "nombre": "Router WiFi",
+        "precio": 129.99,
+        "categoria": "Redes",
+        "stock": 28,
+        "descripcion": "Router dual band con WiFi 6"
+    }
+]

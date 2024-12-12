@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "nombre": "Laptop Gaming",
+        "marca": "MSI",
+        "precio": 1299.99,
+        "stock": 10
+    },
+    {
+        "id": 2,
+        "nombre": "Monitor 4K",
+        "marca": "Samsung", 
+        "precio": 499.99,
+        "stock": 15
+    },
+    {
+        "id": 3,
+        "nombre": "Teclado Mecánico",
+        "marca": "Razer",
+        "precio": 129.99,
+        "stock": 20
+    },
+    {
+        "id": 4,
+        "nombre": "Mouse Inalámbrico",
+        "marca": "Logitech",
+        "precio": 49.99,
+        "stock": 30
+    },
+    {
+        "id": 5,
+        "nombre": "SSD 1TB",
+        "marca": "Kingston",
+        "precio": 89.99,
+        "stock": 25
+    }
+]
