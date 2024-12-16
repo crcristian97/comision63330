@@ -49,9 +49,8 @@ eventoFuturo()
 //EMS6
 const obtenerProductos = async () => {
     try {
-        const resultado = await fetch('https://pokeapi.co/api/v2/pokemon/ditto');
+        const resultado = await fetch('https://6760b6266be7889dc35eb000.mockapi.io/api/cerverceria/employed');
         const data = await resultado.json();
-        debugger;
         console.log(data);
     } catch (error) {
         if(error === 400){
